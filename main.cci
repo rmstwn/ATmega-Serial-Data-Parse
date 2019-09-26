@@ -1,0 +1,12 @@
+VERSION:3 SOURCE_TIMESTAMP:4F3A53F2
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\mega162.h"
+NODE:V LEVEL:0 LINE:30 "START_BYTE -> R5"
+NODE:V LEVEL:0 LINE:31 "counterValue -> R4"
+NODE:V LEVEL:0 LINE:32 "counterValuesum -> R7"
+NODE:V LEVEL:0 LINE:33 "staticValue -> R6"
+NODE:V LEVEL:0 LINE:34 "checksum -> R9"
+NODE:I LEVEL:0 LINE:37 "C:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:38 "C:\cvavr\inc\stdlib.h"
+NODE:I LEVEL:0 LINE:39 "C:\cvavr\inc\delay.h"
+NODE:F LEVEL:0 LINE:41 "sendByte(unsigned char data)"
+NODE:F LEVEL:0 LINE:50 "main(void)"

@@ -1,0 +1,23 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+_seed                                                                             0x0200       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+START_BYTE                                                                        R5           1
+counterValue                                                                      R4           1
+counterValuesum                                                                   R7           1
+staticValue                                                                       R6           1
+checksum                                                                          R9           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+sendByte                                                                          0x00080      7
+main                                                                              0x00087     50
