@@ -105,20 +105,21 @@ UBRR0L=0x4D;
 while (1)
       {
       // Place your code here
+	  //Send Byte to Serial 0
       sendByte(START_BYTE);
       
       for(counterValue=0;counterValue<=10;counterValue++){
-      sendByte(counterValue);
-      counterValuesum += counterValue;
+		//Send Byte to Serial 0
+		sendByte(counterValue);
+		counterValuesum += counterValue;
       }
-      
+      //Send Byte to Serial 0
       sendByte(staticValue);
       
       checksum = counterValuesum + staticValue;
+	  //Send Byte to Serial 0
       sendByte(checksum);
       
-      delay_ms(250);
-      //while(1);
-            
+      delay_ms(250); // delay in ms      
       }
 }
